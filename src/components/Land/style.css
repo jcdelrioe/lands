@@ -1,0 +1,37 @@
+.land-container {
+	display: flex;
+	flex-direction: column;
+	margin: 20px auto;
+	width: 95%;
+	border: 1px solid var(--color-dark);
+	border-radius: 5px;
+}
+.land-container > h3 {
+	margin: 10px 0 0;
+}
+.slider {
+	display: flex;
+	margin: auto;
+	max-width: 500px;
+	height: auto;
+	width: 85%;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+	border-radius: 2px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.slider img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	scroll-snap-align: center;
+}
+.img-container {
+	margin: 10px auto;
+}
+
+/* .land-img {
+	width: 100%;
+	height: auto;
+} */

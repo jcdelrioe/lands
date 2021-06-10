@@ -1,0 +1,99 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"name": "Lote 43",
+			"squareM": "240 m2",
+			"frente": "12m",
+			"fondo": "20m",
+			"address": "Calle Severo Vargas y Juan León Mera",
+			"images": [
+				"images/lands/land01/land01-01.jpg",
+				"images/lands/land01/land01-02.jpg",
+				"images/lands/land01/land01-03.jpg",
+				"images/lands/land01/land01-04.jpg",
+				"images/lands/land01/land01-05.jpg",
+				"images/lands/land01/land01-06.jpg",
+				"images/lands/land01/land01-07.jpg",
+				"images/lands/land01/land01-08.jpg",
+				"images/lands/land01/land01-09.jpg"
+			],
+			"price": "US $ 36.000"
+		},
+		{
+			"id": 2,
+			"name": "Lote 45",
+			"squareM": "518.4 m2",
+			"frente": "18m frente A y 14.4m frente B",
+			"fondo": "32m",
+			"address": "Juan León Mera y Calle Severo Vargas",
+			"images": [
+				"images/lands/land02/land02-01.jpg",
+				"images/lands/land02/land02-02.jpg"
+			],
+			"price": "US $ 77.760"
+		},
+		{
+			"id": 3,
+			"name": "Lote 61",
+			"squareM": "352 m2",
+			"frente": "17.6m frente",
+			"fondo": "20m",
+			"address": "Calle Juan Benigno Vela y Calle Severo Vargas",
+			"images": [
+				"images/lands/land03/land03-01.jpg",
+				"images/lands/land03/land03-02.jpg",
+				"images/lands/land03/land03-03.jpg",
+				"images/lands/land03/land03-04.jpg",
+				"images/lands/land03/land03-05.jpg"
+			],
+			"price": "US $ 52.800"
+		},
+		{
+			"id": 4,
+			"name": "Lote 79",
+			"squareM": "393.75 m2",
+			"frente": "15.5m adelante 16m atrás",
+			"fondo": "25.05m izquierda 25.10m derecha",
+			"address": "Calle Pedro Vicente Maldonado y Calle Severo Vargas",
+			"images": [
+				"images/lands/land04/land04-01.jpg",
+				"images/lands/land04/land04-02.jpg",
+				"images/lands/land04/land04-03.jpg"
+			],
+			"price": "US $ 59.062,50"
+		},
+		{
+			"id": 5,
+			"name": "Lote 94",
+			"squareM": "375 m2",
+			"frente": "15m",
+			"fondo": "25m",
+			"address": "Intipungo, calle Tungurahua",
+			"images": [
+				"images/lands/land05/land05-01.jpg",
+				"images/lands/land05/land05-02.jpg",
+				"images/lands/land05/land05-03.jpg",
+				"images/lands/land05/land05-04.jpg"
+			],
+			"price": "US $ 56.250"
+		},
+		{
+			"id": 6,
+			"name": "Lote 69",
+			"squareM": "324 m2",
+			"frente": "18m",
+			"fondo": "18m",
+			"address": "Intipungo, Calle Juan de Velasco entre Juan León Mera y Benigno Vela",
+			"images": [
+				"images/lands/land06/land06-01.jpg",
+				"images/lands/land06/land06-02.jpg",
+				"images/lands/land06/land06-03.jpg",
+				"images/lands/land06/land06-04.jpg",
+				"images/lands/land06/land06-05.jpg",
+				"images/lands/land06/land06-06.jpg"
+			],
+			"price": "US $ 48.600"
+		}
+	]
+}
