@@ -10,7 +10,7 @@ export default function Land({ id, name, squareM, images }) {
 				<small>{squareM}</small>
 				<div className="img-container slider">
 					{images.map((image) => (
-						<img className="land-img" src={image} alt={name} />
+						<img loading="lazy" className="land-img" src={image} alt={name} />
 					))}
 				</div>
 			</div>
