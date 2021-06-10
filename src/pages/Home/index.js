@@ -13,7 +13,11 @@ export default function Home() {
 						id={item.id}
 						name={item.name}
 						squareM={item.squareM}
+						frente={item.frente}
+						fondo={item.fondo}
+						address={item.address}
 						images={item.images}
+						price={item.price}
 					/>
 				))}
 			</Layout>

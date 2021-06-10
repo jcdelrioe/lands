@@ -1,7 +1,16 @@
 import React from "react";
 import "./style.css";
 
-export default function Land({ id, name, squareM, images }) {
+export default function Land({
+	id,
+	name,
+	squareM,
+	frente,
+	fondo,
+	address,
+	images,
+	price,
+}) {
 	console.log(images);
 	return (
 		<>
@@ -10,9 +19,14 @@ export default function Land({ id, name, squareM, images }) {
 				<small>{squareM}</small>
 				<div className="img-container slider">
 					{images.map((image) => (
-						<img loading="lazy" className="land-img" src={image} alt={name} />
+						<img loading="lazy" src={image} alt={name} />
 					))}
 				</div>
+				<p>
+					Frente: {frente} - Fondo: {fondo}
+				</p>
+				<p>Dirección: {address}</p>
+				<strong>Precio: {price}</strong>
 			</div>
 		</>
 	);

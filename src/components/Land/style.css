@@ -14,7 +14,7 @@
 	margin: auto;
 	max-width: 500px;
 	height: auto;
-	width: 85%;
+	width: 90%;
 	overflow-x: scroll;
 	scroll-snap-type: x mandatory;
 	border-radius: 2px;
@@ -31,7 +31,11 @@
 	margin: 10px auto;
 }
 
-/* .land-img {
-	width: 100%;
-	height: auto;
-} */
+.land-container > p {
+	margin: 5px 5px 2px;
+	font-size: 12px;
+	text-align: left;
+}
+.land-container > strong {
+	margin-top: 15px;
+}
