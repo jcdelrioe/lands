@@ -8,8 +8,8 @@ export default function Home() {
 	return (
 		<>
 			<Layout>
-				{data.data.map((item) => (
-					<Suspense fallback={<div>Loading...</div>}>
+				<Suspense fallback={<div>Loading...</div>}>
+					{data.data.map((item) => (
 						<Land
 							key={item.id}
 							id={item.id}
@@ -21,8 +21,8 @@ export default function Home() {
 							images={item.images}
 							price={item.price}
 						/>
-					</Suspense>
-				))}
+					))}
+				</Suspense>
 			</Layout>
 		</>
 	);

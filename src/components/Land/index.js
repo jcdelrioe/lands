@@ -11,15 +11,21 @@ export default function Land({
 	images,
 	price,
 }) {
-	console.log(images);
 	return (
 		<>
 			<div className="land-container">
 				<h3>{name}</h3>
 				<small>{squareM}</small>
 				<div className="img-container slider">
-					{images.map((image) => (
-						<img loading="lazy" src={image} alt={name} />
+					{images.map((image, index) => (
+						<img
+							key={index}
+							loading="lazy"
+							src={image}
+							alt={name}
+							width="500"
+							height="375"
+						/>
 					))}
 				</div>
 				<p>
